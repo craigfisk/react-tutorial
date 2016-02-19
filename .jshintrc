@@ -1,0 +1,11 @@
+{
+  "globalstrict": true,
+  "undef": true,
+  "unused": true,
+  /* "asi":true, */
+  "node":true,
+  "strict":true,
+  /* "predef": [ "require", "console","module" ] */
+  "predef": [ "angular", "WebSocket", "window", "browser", "location", "describe", "it", "element", "by", "afterEach" ],
+  "browser": true
+}
