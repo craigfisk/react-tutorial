@@ -15,7 +15,6 @@
     <div id="content"></div>
     <!-- <script type="text/babel" src="scripts/example.js"></script> -->
     <script type="text/babel">
-      "use strict";
 
       var Comment = React.createClass({
         rawMarkup: function() {
@@ -67,7 +66,7 @@
           var author = this.state.author.trim();
           var text = this.state.text.trim();
           if (!text || !author) {
-            return
+            return;
           }
           this.props.onCommentSubmit({author: author, text: text});
           this.setState({author: '', text: ''});
