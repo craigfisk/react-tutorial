@@ -68,7 +68,9 @@ var PhotoForm = React.createClass({
   }
 });
 
+
 ReactDOM.render(
-  <PhotoBox data={data} />,
+  // <PhotoBox data={data} />,
+  <PhotoBox url="/api/photos" />,
   document.getElementById('content')
 );
